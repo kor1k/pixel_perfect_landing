@@ -288,6 +288,10 @@ a {
     height: 253px;
 }
 
+.telegram-icon {
+    padding-top: 65px;
+}
+
 .proj-name {
     /*display: flex;*/
     /*justify-content: center;*/
@@ -406,11 +410,13 @@ a {
     padding-bottom: 31px;
 }
 
-input {
-    text-align: center;
-    border-radius: 1px;
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 1px;*/
     background-color: #515151;
-    width: 800px;
+    width: 683px;
     height: 54px;
 }
 
@@ -420,6 +426,33 @@ input {
     background-color: #515151;
     /*width: 1400px;*/
     height: 67px;
+}
+
+.get-in-touch-subscribe {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #515151;
+    background-color: rgba(243, 243, 243, 0);
+    width: 153px;
+    height: 53px;
+
+}
+
+.subscribe-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    font-size: 17px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 22px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
 }
 
 .footer-text {
