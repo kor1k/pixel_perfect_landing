@@ -69,68 +69,146 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding-top: 21px;
 }
 
 .header-contacts-item {
     color: black;
 }
 
-.nav-top {
-    padding-top: 42px;
+.vertical-line {
+    height: 100%;
+    width: 1px;
+    background-color: #333333;
 }
 
-.nav-toggles-item {
+
+
+/*.nav-toggles-item {*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*padding-right: 41px;*/
+    /*font-family: Roboto;*/
+    /*color: #424242;*/
+    /*font-size: 15px; !* Приближение из-за подстановки шрифтов *!*/
+    /*font-weight: 700;*/
+    /*text-align: left;*/
+/*}*/
+
+/*.nav-toggles-item-form {*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+/*}*/
+
+/*.nav-toggles-item:hover {*/
+    /*color: red;*/
+/*}*/
+
+/*a {*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.text-near-logo {*/
+    /*color: #424242;*/
+    /*font-size: 37px; !* Приближение из-за подстановки шрифтов *!*/
+    /*font-weight: 700;*/
+    /*padding-left: 10px;*/
+    /*padding-right: 163px;*/
+/*}*/
+
+/*.nav-toggles-item-form {*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*color: white;*/
+    /*border-radius: 4px;*/
+    /*background-color: #de2b24;*/
+    /*width: 171px;*/
+    /*height: 36px;*/
+/*}*/
+
+/*.logo-header {*/
+    /*padding-right: 15px;*/
+/*}*/
+
+.header-logo {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-right: 41px;
-    font-family: Roboto;
-    color: #424242;
-    font-size: 15px; /* Приближение из-за подстановки шрифтов */
+    width: 240px;
+}
+
+.header-logo p {
+    padding-left: 12px;
+    font-size: 15px;
+}
+
+.header-logo span {
+    font-size: 37px;
     font-weight: 700;
-    text-align: left;
+    letter-spacing: 1.2px;
 }
 
-.nav-toggles-item-form {
+.header-navigation {
+    width: 1024px;
+    height: 132px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.nav-toggles-item:hover {
-    color: red;
-}
-
-a {
-    display: inline-block;
-}
-
-.text-near-logo {
-    color: #424242;
-    font-size: 37px; /* Приближение из-за подстановки шрифтов */
-    font-weight: 700;
-    padding-left: 10px;
-    padding-right: 163px;
-}
-
-.nav-toggles-item-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 4px;
-    background-color: #de2b24;
+.header-consultation-btn {
     width: 171px;
     height: 36px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(222, 43, 36);
+    margin-top: 2px;
 }
 
-.logo-header {
-    padding-right: 15px;
+.navigation li {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 0 18px;
+    position: relative;
 }
+
+.navigation li::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(66, 66, 66);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    right: -3px;
+    top: 5px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+.navigation a:hover {
+    color: rgb(222, 43, 36);
+}
+
+
+
+
+
+
+
+
 
 .providing-block {
-    margin-top: 40px;
     background-image: url("../images/header-banner-providing.png");
     /*height: 1400px;*/
     height: 569px;
@@ -141,7 +219,7 @@ a {
 .text-on-providing-block1 {
     display: flex;
     justify-content: center;
-    padding-top: 175px;
+    padding-top: 166px;
     color: #ffffff;
     font-size: 48px; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
@@ -173,7 +251,7 @@ a {
 }
 
 .about-us-title {
-    padding-top: 100px;
+    padding-top: 123px;
     font-family: Roboto, sans-serif;
     color: #424242;
     font-size: 36px; /* Приближение из-за подстановки шрифтов */
@@ -183,7 +261,7 @@ a {
 }
 
 .about-us-under-title {
-    padding-top: 10px;
+    padding-top: 6px;
     font-family: Roboto, sans-serif;
     color: #424242;
     font-size: 20px; /* Приближение из-за подстановки шрифтов */
@@ -240,11 +318,11 @@ a {
 .red-block {
     background-color: #de2b24;
     /*width: 1400px;*/
-    height: 870px;
+    height: 862px;
 }
 
 .our-work-in-red {
-    padding-top: 110px;
+    padding-top: 103px;
     font-family: Roboto, sans-serif;
     color: #ffffff;
     font-size: 36px; /* Приближение из-за подстановки шрифтов */
@@ -254,7 +332,7 @@ a {
 }
 
 .under-our-work-in-red {
-    padding-top: 10px;
+    padding-top: 7px;
     font-family: Roboto;
     color: #ffffff;
     font-size: 20px; /* Приближение из-за подстановки шрифтов */
@@ -289,7 +367,7 @@ a {
 }
 
 .telegram-icon {
-    padding-top: 65px;
+    padding-top: 75px;
 }
 
 .proj-name {
@@ -358,7 +436,7 @@ a {
 }
 
 .get-it-touch-title {
-    padding-top: 90px;
+    padding-top: 83px;
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -371,9 +449,14 @@ a {
     text-align: left;
 }
 
+.container-for-get-in-items {
+    width: 263px;
+    margin: 0 auto;
+}
+
 .get-in-touch-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .link-items {
@@ -384,11 +467,12 @@ a {
     border-color: gray;
     border-radius: 3px;
     background-color: rgba(243, 243, 243, 0);
-    width: 49px;
-    height: 49px;
+    width: 48px;
+    height: 46px;
 }
 
 .fab {
+    padding-top: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -411,13 +495,16 @@ a {
 }
 
 .input {
+    padding-left: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*border-radius: 1px;*/
     background-color: #515151;
     width: 683px;
     height: 54px;
+    font-family: Roboto, sans-serif;
+    color: #cecece;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
 }
 
 .footer {
