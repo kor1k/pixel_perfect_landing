@@ -82,58 +82,57 @@ body {
     background-color: #333333;
 }
 
-
-
 /*.nav-toggles-item {*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*padding-right: 41px;*/
-    /*font-family: Roboto;*/
-    /*color: #424242;*/
-    /*font-size: 15px; !* Приближение из-за подстановки шрифтов *!*/
-    /*font-weight: 700;*/
-    /*text-align: left;*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*padding-right: 41px;*/
+/*font-family: Roboto;*/
+/*color: #424242;*/
+/*font-size: 15px; !* Приближение из-за подстановки шрифтов *!*/
+/*font-weight: 700;*/
+/*text-align: left;*/
 /*}*/
 
 /*.nav-toggles-item-form {*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
 /*}*/
 
 /*.nav-toggles-item:hover {*/
-    /*color: red;*/
+/*color: red;*/
 /*}*/
 
 /*a {*/
-    /*display: inline-block;*/
+/*display: inline-block;*/
 /*}*/
 
 /*.text-near-logo {*/
-    /*color: #424242;*/
-    /*font-size: 37px; !* Приближение из-за подстановки шрифтов *!*/
-    /*font-weight: 700;*/
-    /*padding-left: 10px;*/
-    /*padding-right: 163px;*/
+/*color: #424242;*/
+/*font-size: 37px; !* Приближение из-за подстановки шрифтов *!*/
+/*font-weight: 700;*/
+/*padding-left: 10px;*/
+/*padding-right: 163px;*/
 /*}*/
 
 /*.nav-toggles-item-form {*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*color: white;*/
-    /*border-radius: 4px;*/
-    /*background-color: #de2b24;*/
-    /*width: 171px;*/
-    /*height: 36px;*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*color: white;*/
+/*border-radius: 4px;*/
+/*background-color: #de2b24;*/
+/*width: 171px;*/
+/*height: 36px;*/
 /*}*/
 
 /*.logo-header {*/
-    /*padding-right: 15px;*/
+/*padding-right: 15px;*/
 /*}*/
 
 .header-logo {
+    margin-left: 4px;
     display: flex;
     align-items: center;
     width: 240px;
@@ -145,14 +144,14 @@ body {
 }
 
 .header-logo span {
-    font-size: 37px;
+    font-size: 34px;
     font-weight: 700;
     letter-spacing: 1.2px;
 }
 
 .header-navigation {
     width: 1024px;
-    height: 132px;
+    height: 128px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -200,18 +199,10 @@ body {
     color: rgb(222, 43, 36);
 }
 
-
-
-
-
-
-
-
-
 .providing-block {
     background-image: url("../images/header-banner-providing.png");
     /*height: 1400px;*/
-    height: 569px;
+    height: 586px;
     background-size: cover;
     background-position: center;
 }
@@ -221,7 +212,7 @@ body {
     justify-content: center;
     padding-top: 166px;
     color: #ffffff;
-    font-size: 48px; /* Приближение из-за подстановки шрифтов */
+    font-size: 47px; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
 }
 
@@ -251,13 +242,14 @@ body {
 }
 
 .about-us-title {
-    padding-top: 123px;
+    padding-top: 106px;
     font-family: Roboto, sans-serif;
     color: #424242;
     font-size: 36px; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
     line-height: 26px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
+    margin-left: 5px;
 }
 
 .about-us-under-title {
@@ -282,16 +274,16 @@ body {
 }
 
 .images-block {
-    padding-top: 46px;
+    padding-top: 44px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-bottom: 20px;
 }
 
 .text-under-images-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     /*padding-top: 27px;*/
     font-family: Roboto, sans-serif;
@@ -318,7 +310,7 @@ body {
 .red-block {
     background-color: #de2b24;
     /*width: 1400px;*/
-    height: 862px;
+    height: 846px;
 }
 
 .our-work-in-red {
