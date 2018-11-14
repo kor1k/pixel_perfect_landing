@@ -202,7 +202,7 @@ body {
 .providing-block {
     background-image: url("../images/header-banner-providing.png");
     /*height: 1400px;*/
-    height: 586px;
+    height: 590px;
     background-size: cover;
     background-position: center;
 }
@@ -281,6 +281,13 @@ body {
     padding-bottom: 20px;
 }
 
+.sample-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .text-under-images-block {
     display: flex;
     justify-content: space-around;
@@ -304,17 +311,17 @@ body {
     font-weight: 400;
     line-height: 22px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
-    margin-bottom: 143px;
+    margin-bottom: 106px;
 }
 
 .red-block {
     background-color: #de2b24;
     /*width: 1400px;*/
-    height: 846px;
+    height: 870px;
 }
 
 .our-work-in-red {
-    padding-top: 103px;
+    padding-top: 111px;
     font-family: Roboto, sans-serif;
     color: #ffffff;
     font-size: 36px; /* Приближение из-за подстановки шрифтов */
@@ -371,6 +378,7 @@ body {
     font-size: 26px; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
     text-align: center;
+    margin-top: 15px;
 }
 
 .under-proj-name {
@@ -428,7 +436,7 @@ body {
 }
 
 .get-it-touch-title {
-    padding-top: 83px;
+    padding-top: 90px;
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
@@ -476,10 +484,10 @@ body {
 }
 
 .under-link-text {
-    padding-top: 36px;
+    padding-top: 29px;
     font-family: Roboto, sans-serif;
     color: #cecece;
-    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-size: 14px;
     font-weight: 400;
     line-height: 22px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
@@ -487,16 +495,16 @@ body {
 }
 
 .input {
-    padding-left: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #515151;
-    width: 683px;
-    height: 54px;
+    width: 637px;
+    height: 48px;
     font-family: Roboto, sans-serif;
     color: #cecece;
-    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-size: 14px;
+    padding-left: 39px;
 }
 
 .footer {
@@ -508,7 +516,7 @@ body {
 }
 
 .get-in-touch-subscribe {
-    margin-top: 27px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -518,8 +526,7 @@ body {
     border-color: #515151;
     background-color: rgba(243, 243, 243, 0);
     width: 153px;
-    height: 53px;
-
+    height: 48px;
 }
 
 .subscribe-text {
