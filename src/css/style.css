@@ -139,8 +139,9 @@ body {
 }
 
 .header-logo p {
-    padding-left: 12px;
+    padding-left: 15px;
     font-size: 15px;
+    margin-top: 11px;
 }
 
 .header-logo span {
@@ -159,7 +160,7 @@ body {
 }
 
 .header-consultation-btn {
-    width: 171px;
+    width: 169px;
     height: 36px;
     border: none;
     border-radius: 4px;
@@ -175,7 +176,7 @@ body {
     display: inline-block;
     font-weight: 700;
     font-size: 15px;
-    padding: 0 18px;
+    padding: 0 1px;
     position: relative;
 }
 
@@ -212,8 +213,9 @@ body {
     justify-content: center;
     padding-top: 166px;
     color: #ffffff;
-    font-size: 47px; /* Приближение из-за подстановки шрифтов */
+    font-size: 47px;
     font-weight: 700;
+    margin-left: 441px;
 }
 
 .text-on-providing-block2 {
@@ -242,7 +244,7 @@ body {
 }
 
 .about-us-title {
-    padding-top: 106px;
+    padding-top: 103px;
     font-family: Roboto, sans-serif;
     color: #424242;
     font-size: 36px; /* Приближение из-за подстановки шрифтов */
@@ -253,13 +255,15 @@ body {
 }
 
 .about-us-under-title {
-    padding-top: 6px;
+    padding-top: 5px;
     font-family: Roboto, sans-serif;
     color: #424242;
     font-size: 20px; /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
     line-height: 26px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
+    padding-left: 7px;
+    /*margin-right: 23px;*/
 }
 
 .palka {
@@ -282,26 +286,25 @@ body {
 }
 
 .sample-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 320px;
+    margin-top: -2px;
 }
 
 .text-under-images-block {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    /*padding-top: 27px;*/
+    padding-top: 4px;
     font-family: Roboto, sans-serif;
     color: #424242;
     font-size: 22px; /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
+    margin-right: 23px;
     /*text-align: left;*/
 }
 
 .text-in-under-images-block {
-    padding-top: 14px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -311,7 +314,11 @@ body {
     font-weight: 400;
     line-height: 22px; /* Приближение из-за подстановки шрифтов */
     text-align: center;
-    margin-bottom: 106px;
+    margin-bottom: 104px;
+}
+
+.fas .fa-envelope {
+    padding-top: 4px;
 }
 
 .red-block {
@@ -367,6 +374,7 @@ body {
 
 .telegram-icon {
     padding-top: 75px;
+    margin-right: 4px;
 }
 
 .proj-name {
@@ -443,9 +451,9 @@ body {
     align-items: center;
     font-family: Roboto, sans-serif;
     color: #ffffff;
-    font-size: 29px; /* Приближение из-за подстановки шрифтов */
+    font-size: 28px;
     font-weight: 700;
-    line-height: 22px; /* Приближение из-за подстановки шрифтов */
+    line-height: 22px;
     text-align: left;
 }
 
@@ -525,7 +533,7 @@ body {
     border-width: 2px;
     border-color: #515151;
     background-color: rgba(243, 243, 243, 0);
-    width: 153px;
+    width: 150px;
     height: 48px;
 }
 
@@ -545,7 +553,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     color: #cecece;
     font-size: 14px; /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
